@@ -1,9 +1,11 @@
+import { BrowserRouter } from "react-router-dom"
+import AppRouter from "./router/AppRouter"
 
 const CalendarApp = () => {
   return (
-    <div>
-      <h2>CalendarApp</h2>
-    </div>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   )
 }
 
